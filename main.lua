@@ -1033,6 +1033,7 @@ function network.clickExitButton()
     if hover(network.exitButton, mouseX, mouseY) and findingNetworkPlayer then
         core.music1:play()
         data["playState"] = "play"
+        findingNetworkPlayer = false
     end
 end
 
@@ -1053,6 +1054,7 @@ function network.clickPlayButton()
     if hover(network.playButton, mouseX, mouseY) and findingNetworkPlayer then
         core.music1:play()
         data["playState"] = "play"
+        findingNetworkPlayer = false
         -- function reseau de recherche non encore implementé
     end
 end
