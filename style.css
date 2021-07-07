@@ -1,0 +1,88 @@
+body{
+    background-color: #c4283f;
+    text-align: center;
+}
+#title{
+    display: inline-block;
+    margin: auto;
+    width: 30em;
+    height: 5em;
+}
+#title img{
+    width: 100%;
+    height: 100%;
+}
+.button{
+    padding: 0.8em;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #60130f;
+    display: inline-block;
+    width: 10em;
+    transition: all .2s ease-in;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+.button:hover{
+    padding: 0.9em;
+}
+a{
+    text-decoration: none;
+}
+.red{
+    background-color: #e5181e;
+}
+.red:hover{
+    background-color: #f0363d;
+}
+.green{
+    background-color: #248434;
+}
+.green:hover{
+    
+    background-color: #2ea542;
+}
+.orange{
+    background-color: #ca6914;
+}
+.orange:hover{
+    background-color: #e27f28;
+}
+.blue{
+    background-color: #187da1;
+}
+.blue:hover{
+    background-color: #1ba3d4;
+}
+#gamePreview{
+    width: auto;
+    height: auto;
+    background-color: red;
+    margin: auto;
+    border: 3px solid #60130f;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#gamePreview video{
+    width: 100%;
+    height: 100%;
+}
+h3{
+    position: relative;
+    top: -0.4em;
+    color: white;
+}
+video{
+    position: relative;
+    top: -0.5em;
+}
+.block{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 3em;
+    height: 10em;
+    background-color: green;
+}
