@@ -5,8 +5,11 @@ body{
 #title{
     display: inline-block;
     margin: auto;
-    width: 30em;
-    height: 5em;
+    width: 25em;
+    height: 3em;
+}
+h1{
+    color: white;
 }
 #title img{
     width: 100%;
@@ -72,7 +75,9 @@ a{
 h3{
     position: relative;
     top: -0.4em;
-    color: white;
+    color: black;
+    font-size: 0.9em;
+    margin-top: 2em;
 }
 video{
     position: relative;
