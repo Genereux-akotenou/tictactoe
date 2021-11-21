@@ -16,14 +16,14 @@ h1{
     height: 100%;
 }
 .button{
-    padding: 0.8em;
+    padding: 0.6em;
     border-radius: 10px;
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
     color: white;
     font-weight: bold;
     border: 3px solid #60130f;
     display: inline-block;
-    width: 10em;
+    width: 7em;
     transition: all .2s ease-in;
     margin-left: 0.4em;
     margin-right: 0.4em;
